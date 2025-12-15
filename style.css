@@ -1,0 +1,93 @@
+/* Mengatur font dan warna dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9; /* Warna latar belakang abu muda */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Mengatur Header (Judul Utama) */
+header {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 5px solid #00AA13; /* Hijau Gojek/Gober */
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Kotak Profil */
+.profile-info {
+    background-color: #e8f5e9; /* Hijau sangat muda */
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    border: 1px solid #c8e6c9;
+}
+
+/* Mengatur Bagian per Tahap (Section) */
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #00AA13; /* Hijau Gober */
+    border-left: 5px solid #00AA13;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #444;
+    margin-top: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Mengatur Gambar */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tombol Link */
+.button {
+    background-color: #00AA13;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #00800e; /* Hijau lebih gelap saat disentuh */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #888;
+    font-size: 0.9em;
+}
